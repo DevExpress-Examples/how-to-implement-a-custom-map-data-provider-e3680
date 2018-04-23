@@ -1,0 +1,11 @@
+﻿<Window x:Class="CustomMapDataProviderApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:dxc="http://schemas.devexpress.com/winfx/2008/xaml/map"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <dxc:MapControl>
+            <dxc:ImageLayer x:Name="imageLayer"/>
+        </dxc:MapControl>
+    </Grid>
+</Window>
