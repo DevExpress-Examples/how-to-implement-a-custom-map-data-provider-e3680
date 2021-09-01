@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Globalization;
+using System.Net;
 using System.Windows;
 using DevExpress.Xpf.Map;
 
@@ -8,7 +9,14 @@ namespace CustomMapDataProviderApp {
     public partial class MainWindow : Window {
         public MainWindow () {
             InitializeComponent();
-            imageLayer.DataProvider = new CustomMapDataProvider();
+            ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
+            CustomMapDataProvider provider = new CustomMapDataProvider();
+            imageLayer.DataProvider = provider;
+            provider.WebRequest += Provider_WebRequest;
+        }
+
+        private void Provider_WebRequest(object sender, MapWebRequestEventArgs e) {
+            e.UserAgent = "Test Map App";
         }
     }
 
