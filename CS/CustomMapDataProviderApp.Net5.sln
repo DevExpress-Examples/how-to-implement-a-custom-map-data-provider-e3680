@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomMapDataProviderApp", "CustomMapDataProviderApp.csproj", "{8A5BA10C-B4F6-4E6F-A646-813695996D0D}"
+# Visual Studio 16
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomMapDataProviderApp", "CustomMapDataProviderApp.Net5.csproj", "{8A5BA10C-B4F6-4E6F-A646-813695996D0D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
