@@ -9,6 +9,8 @@
 
 This example implements a custom map data provider class inherited from the [MapDataProviderBase](http://documentation.devexpress.com/#DevExpressMapControl/clsDevExpressXpfMapMapDataProviderBasetopic) type. In the example, a custom [MapTileSourceBase](http://documentation.devexpress.com/#DevExpressMapControl/clsDevExpressXpfMapMapTileSourceBasetopic) class is implemented to supply tile URLs from the OpenStreetMap source.
 
+![Map](./images/map.png)
+
 ## Files to Review
 * [MainWindow.xaml](./CS/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/MainWindow.xaml))
 * [MainWindow.xaml.cs](./CS/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/MainWindow.xaml.vb))
