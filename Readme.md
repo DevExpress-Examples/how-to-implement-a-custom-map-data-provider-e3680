@@ -4,19 +4,14 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 [![](https://img.shields.io/badge/💬_Leave_Feedback-feecdd?style=flat-square)](#does-this-example-address-your-development-requirementsobjectives)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
 
+# Map for WPF - How to Implement a Custom Map Data Provider
+
+This example implements a custom map data provider class inherited from the [MapDataProviderBase](http://documentation.devexpress.com/#DevExpressMapControl/clsDevExpressXpfMapMapDataProviderBasetopic) type. In the example, a custom [MapTileSourceBase](http://documentation.devexpress.com/#DevExpressMapControl/clsDevExpressXpfMapMapTileSourceBasetopic) class is implemented to supply tile URLs from the OpenStreetMap source.
+
+## Files to Review
 * [MainWindow.xaml](./CS/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/MainWindow.xaml))
 * [MainWindow.xaml.cs](./CS/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/MainWindow.xaml.vb))
-<!-- default file list end -->
-# How to implement a custom map data provider
-
-
-<p>This example illustrates how to implement a custom map data provider class inherited from the <a href="http://documentation.devexpress.com/#DevExpressMapControl/clsDevExpressXpfMapMapDataProviderBasetopic"><u>MapDataProviderBase</u></a> type. In the example, a custom <a href="http://documentation.devexpress.com/#DevExpressMapControl/clsDevExpressXpfMapMapTileSourceBasetopic"><u>MapTileSourceBase</u></a> class is implemented to supply tile URLs from the OpenStreetMap source.</p>
-
-<br/>
-
 
 <!-- feedback -->
 ## Does this example address your development requirements/objectives?
